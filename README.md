@@ -1,12 +1,11 @@
 # Slashcommand Archive
   This repo serves as my personal archive of slashcommand that I can't live without since I'm often switching client remote desktops and laptops and wanted a easy place to go to import them all at once. There is a [slashcommands](slashcommands.json) file that you can use to import the commands in bulk, and I've written a quick GitHub action to list them out one by one below so they can be grabbed a la cart. 
 
-#
+
 
 ## How to add custom SlashCommands
 Follow the [Add Custom SlashCommands](Add%20Custom%20SlashCommands.md) to learn how to add custom SlashCommands to SN Utils.
 
-#
 
 
 ## List of Custom Slash Commands
