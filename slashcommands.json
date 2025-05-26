@@ -1,0 +1,219 @@
+{
+    "us": {
+        "url": "sys_update_set_list.do?sysparm_query=nameLIKE$1^ORDERBYDESCsys_updated_on",
+        "hint": "Filter Update Set <name>",
+        "fields": "name",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "sc": {
+        "url": "sc_cat_item_list.do?sysparm_query=nameLIKE$0",
+        "hint": "Filter Cat Item <name>",
+        "fields": "name",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "r": {
+        "url": "sys_user_role_list.do?sysparm_query=nameLIKE$0",
+        "hint": "Filter Roles <search>",
+        "fields": "name",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "g": {
+        "url": "sys_user_group_list.do?sysparm_query=nameLIKE$0",
+        "hint": "Filter Groups <search>",
+        "fields": "name",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "notif": {
+        "url": "sysevent_email_action_list.do?sysparm_query=nameLIKE$0",
+        "hint": "Filter Notification <search>",
+        "fields": "name",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "ds": {
+        "url": "sys_data_source_list.do?sysparm_query=nameLIKE$0",
+        "hint": "Filter Data Source <name>",
+        "fields": "name",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "dico": {
+        "url": "sys_dictionary_list.do?sysparm_query=nameLIKE$0^ORelementLIKE$0",
+        "hint": "Dico Search <search>",
+        "fields": "name, element",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "exec": {
+        "url": "sys_flow_context_list.do?sysparm_query=source_record=$sysid",
+        "hint": "",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "lognow": {
+        "url": "syslog_list.do?sysparm_query=sys_created_onONLast%2015%20minutes@javascript:gs.beginningOfLast15Minutes()@javascript:gs.endOfLast15Minutes()^messageLIKE$0^ORsourceLIKE$0",
+        "hint": "Search log",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "nus": {
+        "url": "sys_update_set.do?sys_id=-1",
+        "hint": "New Update set",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "cus": {
+        "url": "sys_update_set.do?sys_id=javascript:gs.getPreference('sys_update_set')",
+        "hint": "Current update set",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "duplicate": {
+        "url": "//env",
+        "hint": "Dupliquer la page",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "try": {
+        "url": "/$0?id=sc_cat_item&sys_id=$sysid",
+        "hint": "Try cat item in portal",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "en": {
+        "url": "//lang en",
+        "hint": "switch to english",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "fr": {
+        "url": "//lang fr",
+        "hint": "basculer en français",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "msg": {
+        "url": "sys_ui_message_list.do?sysparm_query=messageLIKE$0%5EORkeyLIKE$0",
+        "hint": "Traduction de message",
+        "fields": "key,popup",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "bgd": {
+        "url": "/sys.scripts.do?content=var%20current%20%3D%20new%20GlideRecord%28%22$table%22%29%3B%0Aif%20%28current.get%28%22$sysid%22%29%29%7B%0A%20%20%20%20gs.info%28current.getDisplayValue%28%29%29%3B%0A%2F%2Fstuff%0A%2F%2Fcurrent.number%20%3D%20new%20NumberManager%28%22$table%22%29.getNextObjNumberPadded%28%29%3B%0A%0A%2F%2Fcurrent.insert%28%29%3B%0A%7D",
+        "hint": "Prompt pour dupliquer le record courant",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "w": {
+        "url": "sp_widget_list.do?sysparm_query=nameLIKE$0^ORidLIKE$0^ORDERBYDESCsys_updated_on",
+        "hint": "Widgets <name or id>",
+        "fields": "name,id",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "stats": {
+        "url": "/stats.do",
+        "hint": "Stats.do",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "sla": {
+        "url": "contract_sla_list.do?sysparm_query=nameLIKE$0^ORDERBYDESCname",
+        "hint": "SLA Definitions <name>",
+        "fields": "name",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "retrieve": {
+        "url": "sys_update_set_source_list.do?sysparm_query=^ORDERBYname",
+        "hint": "Remote Instances <search>",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "sj": {
+        "url": "sysauto_list.do?sysparm_query=nameLIKE$0^ORDERBYname",
+        "hint": "Scheduled Jobs <name>",
+        "fields": "name",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "fix": {
+        "url": "sys_script_fix_list.do?sysparm_query=nameLIKE$0^ORDERBYname",
+        "hint": "Fix Scripts <name>",
+        "fields": "name",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "upa": {
+        "url": "sys_ui_policy_action_list.do?sysparm_query=fieldLIKE$0^ORDERBYfield",
+        "hint": "UI Policy Actions <field>",
+        "fields": "field",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "case": {
+        "url": "sn_customerservice_case_list.do?sysparm_query=numberLIKE$0",
+        "hint": "Filter Cases <number>",
+        "fields": "number",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "incident": {
+        "url": "incident_list.do?sysparm_query=numberLIKE$0",
+        "hint": "Filter Incidents <number>",
+        "fields": "number",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "req": {
+        "url": "sc_request_list.do?sysparm_query=numberLIKE$0",
+        "hint": "Filter Requests <number>",
+        "fields": "number",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "ritm": {
+        "url": "sc_req_item_list.do?sysparm_query=numberLIKE$0",
+        "hint": "Filter RITM <number>",
+        "fields": "number",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "sctask": {
+        "url": "sc_task_list.do?sysparm_query=numberLIKE$0",
+        "hint": "Filter SC Task <number>",
+        "fields": "number",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "wo": {
+        "url": "wm_order_list.do?sysparm_query=numberLIKE$0",
+        "hint": "Filter WO <number>",
+        "fields": "number",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "wot": {
+        "url": "wm_task_list.do?sysparm_query=numberLIKE$0",
+        "hint": "Filter WOT <number>",
+        "fields": "number",
+        "order": 0,
+        "overwriteurl": ""
+    }
+}
