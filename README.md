@@ -16,7 +16,7 @@
 
 ### /us
 
-*Filter Update Set <name>*
+*Filter Update Set &lt;name&gt;*
 
 Search for Update set by name.
 
@@ -26,7 +26,7 @@ Search for Update set by name.
 
 ### /sc
 
-*Filter Cat Item <name>*
+*Filter Cat Item &lt;name&gt;*
 
 Search for Catalog Item by name.
 
@@ -36,7 +36,7 @@ Search for Catalog Item by name.
 
 ### /r
 
-*Filter Roles <search>*
+*Filter Roles &lt;search&gt;*
 
 Search for roles by name.
 
@@ -46,7 +46,7 @@ Search for roles by name.
 
 ### /g
 
-*Filter Groups <search>*
+*Filter Groups &lt;search&gt;*
 
 Search for user groups by name.
 
@@ -56,7 +56,7 @@ Search for user groups by name.
 
 ### /notif
 
-*Filter Notification <search>*
+*Filter Notification &lt;search&gt;*
 
 Search for notifications by name.
 
@@ -66,7 +66,7 @@ Search for notifications by name.
 
 ### /ds
 
-*Filter Data Source <name>*
+*Filter Data Source &lt;name&gt;*
 
 Search for data sources by name.
 
@@ -76,7 +76,7 @@ Search for data sources by name.
 
 ### /dico
 
-*Dico Search <search>*
+*Dico Search &lt;search&gt;*
 
 Search dictionary by name or element.
 
@@ -186,7 +186,7 @@ Duplicate current record script.
 
 ### /w
 
-*Widgets <name or id>*
+*Widgets &lt;name or id&gt;*
 
 Search for widgets by name or ID.
 
@@ -206,7 +206,7 @@ Open instance stats.
 
 ### /sla
 
-*SLA Definitions <name>*
+*SLA Definitions &lt;name&gt;*
 
 Search SLA definitions.
 
@@ -216,7 +216,7 @@ Search SLA definitions.
 
 ### /retrieve
 
-*Remote Instances <search>*
+*Remote Instances &lt;search&gt;*
 
 Retrieve update set sources.
 
@@ -226,7 +226,7 @@ Retrieve update set sources.
 
 ### /sj
 
-*Scheduled Jobs <name>*
+*Scheduled Jobs &lt;name&gt;*
 
 Search scheduled jobs.
 
@@ -236,7 +236,7 @@ Search scheduled jobs.
 
 ### /fix
 
-*Fix Scripts <name>*
+*Fix Scripts &lt;name&gt;*
 
 Search fix scripts.
 
@@ -246,7 +246,7 @@ Search fix scripts.
 
 ### /upa
 
-*UI Policy Actions <field>*
+*UI Policy Actions &lt;field&gt;*
 
 Search UI policy actions.
 
@@ -256,7 +256,7 @@ Search UI policy actions.
 
 ### /case
 
-*Filter Cases <number>*
+*Filter Cases &lt;number&gt;*
 
 Search Customer Service cases.
 
@@ -266,7 +266,7 @@ Search Customer Service cases.
 
 ### /incident
 
-*Filter Incidents <number>*
+*Filter Incidents &lt;number&gt;*
 
 Search incidents.
 
@@ -276,7 +276,7 @@ Search incidents.
 
 ### /req
 
-*Filter Requests <number>*
+*Filter Requests &lt;number&gt;*
 
 Search service requests.
 
@@ -286,7 +286,7 @@ Search service requests.
 
 ### /ritm
 
-*Filter RITM <number>*
+*Filter RITM &lt;number&gt;*
 
 Search RITM records.
 
@@ -296,7 +296,7 @@ Search RITM records.
 
 ### /sctask
 
-*Filter SC Task <number>*
+*Filter SC Task &lt;number&gt;*
 
 Search Service Catalog Tasks.
 
@@ -306,7 +306,7 @@ Search Service Catalog Tasks.
 
 ### /wo
 
-*Filter WO <number>*
+*Filter WO &lt;number&gt;*
 
 Search Work Orders.
 
@@ -316,7 +316,7 @@ Search Work Orders.
 
 ### /wot
 
-*Filter WOT <number>*
+*Filter WOT &lt;number&gt;*
 
 Search Work Order Tasks.
 
