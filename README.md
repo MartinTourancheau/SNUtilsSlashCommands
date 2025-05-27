@@ -320,3 +320,13 @@ Search Work Order Tasks.
 
 ---
 
+### /hierarchy
+
+*Show Hierarchy of current table*
+
+Show Hierarchy of current table
+
+<pre><code>/generic_hierarchy_erd.do?sysparm_attributes=table_history=,table=$table,show_internal=true,show_referenced=false,show_referenced_by=false,show_extended=true,show_extended_by=true,table_expansion=,spacing_x=60,spacing_y=90,nocontext</code></pre>
+
+---
+
